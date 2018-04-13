@@ -29,5 +29,5 @@ A client needs help with their application for a medical company this morning! S
 
 
 - Once you hit submit, it will return an object. 
-![medical-obj](./asset/med-obj.png)
+![medical-obj](./assets/med-obj.png)
 
