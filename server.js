@@ -3,13 +3,14 @@ const express    = require('express');
 const logger     = require('morgan');
 const bodyParser = require('body-parser');
 
-app.use(logger('dev'));
-app.use(bodyParser.json());
-
-const PORT = process.env.PORT || 3000;
-
 // initialize app
 const app = express();
+
+app.use(logger('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+const PORT = process.env.PORT || 3000;
 
 
 app.get('/records', (req, res) => {
