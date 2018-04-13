@@ -1,6 +1,6 @@
 # html-forms-practice
 
-![friday](https://gph.is/2d031yt)
+![friday](https://media.giphy.com/media/Qqti9m8Dr1tQI/giphy.gif)
 
 Happy Friday!!!!!!
 
